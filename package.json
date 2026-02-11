@@ -1,0 +1,25 @@
+{
+  "name": "memory-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that remembers everything you tell it",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "convex dev & node index.js"
+  },
+  "keywords": ["telegram", "bot", "memory", "ai"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.3",
+    "chalk": "^5.3.0",
+    "convex": "^1.18.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5"
+  }
+}
